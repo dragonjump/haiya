@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
-
+small{
+	font-size: xx-small !important;
+}
 /*
 	haiya by haiya
 	haiya.my | @ajlkn

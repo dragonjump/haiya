@@ -54,6 +54,11 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.small-thumb{
+	width:88%;
+	display:block;
+	padding:5px;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -1916,6 +1921,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ffffff;
 			color: #312450 !important;
+			color: #732301 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -3235,24 +3241,34 @@ input, select, textarea {
 
 			}
 
-		.wrapper.alt {
-			background-color: #261c3e;
-		}
-
-		.wrapper.style1 {
-			background-color: #5e42a6;
-		}
-
-		.wrapper.style1-alt {
-			background-color: #493382;
-		}
+			.wrapper.alt {
+				background-color: #261c3e;
+				background-color: #a92702
+				;
+			}
+	
+			.wrapper.style1 {
+				background-color: #5e42a6;
+				/* background-color: #e33808; */
+				
+				background-color: #e3490b;
+				background-color:  #fa3f0b;;
+			}
+	
+			.wrapper.style1-alt {
+				background-color: #493382;
+				background-color: #e33808;
+			} 
 
 		.wrapper.style2 {
 			background-color: #5052b5;
+			background-color: #fd6a0d;
+			
 		}
 
 		.wrapper.style2-alt {
 			background-color: #3e4094;
+			background-color: #eb620d;
 		}
 
 		.wrapper.style3 {
@@ -3371,6 +3387,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		background-color: #5e42a6;
+		background-color: #a65142;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3525,7 +3542,8 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		background: #312450;
-		cursor: default;
+		background: #fa3f0b;
+ 		cursor: default;
 		height: 100vh;
 		left: 0;
 		overflow-x: hidden;
@@ -3762,6 +3780,7 @@ input, select, textarea {
 
 			#sidebar nav a:before {
 				background: #3c2c62;
+				background: #edcfbe;
 			}
 
 			#sidebar nav a:after {
@@ -3857,7 +3876,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #f7977f;
 						}
 
 		}

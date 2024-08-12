@@ -106,6 +106,7 @@ input, select, textarea {
 
 	body {
 		background: #312450;
+		background: #fa3f0b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2542,6 +2543,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-radius: 100%;
 			color: #312450;
+			color: #a92702;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2551,29 +2553,35 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
-				}
+			.wrapper.style1 .icon.major:before {
+				color: #5e42a6; 
+				color:  #fa3f0b;
+			}
 
-				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
-				}
+			.wrapper.style1-alt .icon.major:before {
+				color: #493382;
+				color: #e33808;
+			}
 
-				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
-				}
+			.wrapper.style2 .icon.major:before {
+				color: #5052b5; 
+				color: #fd6a0d;
+			}
 
-				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
-				}
+			.wrapper.style2-alt .icon.major:before {
+				color: #3e4094;
+				color: #eb620d;
+			}
 
-				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
-				}
+			.wrapper.style3 .icon.major:before {
+				color: #b74e91;
+					color:	#fd6a0d;
+			}
 
-				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
-				}
+			.wrapper.style3-alt .icon.major:before {
+				color: #953d75;
+				color:	#fd6a0d;
+			}
 
 /* Image */
 
@@ -3801,6 +3809,15 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+
+
+
+				background-image: -moz-linear-gradient(to right, #fa3f0b, #fd6a0d);
+				background-image: -webkit-linear-gradient(to right, #fa3f0b, #fd6a0d);
+				background-image: -ms-linear-gradient(to right, #fa3f0b, #fd6a0d);
+				background-image: linear-gradient(to right, #fa3f0b, #fd6a0d);
+
+
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
